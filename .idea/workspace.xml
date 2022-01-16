@@ -2,16 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04773bbf-50f6-4a2b-8c70-7d6cdada3408" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/about.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/view/[id].tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Gnb.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Top.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detail/[id].tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/_error.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ItemInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/ItemList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/view/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/view/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Gnb.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Gnb.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Top.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Top.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -48,28 +58,41 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ECP/react-user-management" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practice/next-guide" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.20391807" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="C:\Users\hwang\Documents\GitHub\next-practice\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hwang\Documents\GitHub\next-practice" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
     </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -81,9 +104,14 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="npm.build" />
+      <item itemvalue="npm.dev" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +123,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1641893540269</updated>
-      <workItem from="1641893546187" duration="4875000" />
+      <workItem from="1641893546187" duration="5466000" />
+      <workItem from="1642182149970" duration="288000" />
+      <workItem from="1642260708030" duration="18000" />
+      <workItem from="1642267285643" duration="17988000" />
     </task>
     <servers />
   </component>
@@ -113,5 +144,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
